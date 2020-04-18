@@ -1,0 +1,48 @@
+API's:
+
+/api/register/
+/api/login/
+
+detail:
+
+----------------------
+User registration
+url: /api/register/
+request: POST
+Email is optional
+-----------------------
+
+Schema:
+{
+    "phone":"9816456565",
+    "name":"Nitish Sharma",
+    "email":"nitishrkt@gmail.com", (optional)
+    "password":"123"
+}
+
+Result:
+{
+    "status":"True"
+}
+or
+{
+    "status":"False"
+}
+
+-----------------------------------------------
+User login
+url: /api/login/
+request: POST
+only using phone number as a username for now
+-----------------------------------------------
+
+Schema:
+{
+    "phone":"9816456565",
+    "password":"123"
+}
+
+Result:
+{
+    "token": "95f634efa0969251f67126d085e2a3f07c290656"
+}
