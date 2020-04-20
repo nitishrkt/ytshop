@@ -1,1 +1,1 @@
-web: gunicorn ytshop.wsgi
+web: gunicorn YTSHOP.wsgi
