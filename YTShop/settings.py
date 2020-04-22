@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-ROOT_URLCONF = 'YTShop.urls'
+ROOT_URLCONF = 'ytshop.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'YTShop.wsgi.application'
+WSGI_APPLICATION = 'ytshop.wsgi.application'
 
 
 # Database
